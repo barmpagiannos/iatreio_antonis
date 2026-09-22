@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="el">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Μπαρμπαγιάννος Αντώνης — Κλείστε το ραντεβού σας online." />
+    <title>Μπαρμπαγιάννος Αντώνης</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="home-page">
+      <header class="simple-header">
+        <p class="header-label">Ιατρείο</p>
+        <h1>Μπαρμπαγιάννος Αντώνης</h1>
+      </header>
+
+      <section class="welcome" aria-labelledby="welcome-title">
+        <p class="eyebrow">Καλώς ήρθατε</p>
+        <h2 id="welcome-title">Κλείστε το ραντεβού σας <em>εύκολα.</em></h2>
+        <p class="welcome-text">Επιλέξτε την ημέρα και την ώρα που σας εξυπηρετεί μέσω της online φόρμας.</p>
+        <a class="appointment-button" href="#appointment-widget">
+          Κλείστε ραντεβού <span>↘</span>
+        </a>
+
+        <div class="appointment-widget" id="appointment-widget">
+          <iframe 
+            src="https://medical-appointment-booking-widget.ai.studio/?embed=true&doctor=Y92OxqVkiFhUZgZcBHNK" 
+            width="100%" 
+            height="720" 
+            frameborder="0" 
+            scrolling="no"
+            style="border: none; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);"
+            title="Κράτηση Ραντεβού">
+          </iframe>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
